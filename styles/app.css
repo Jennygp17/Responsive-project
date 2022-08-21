@@ -51,16 +51,18 @@ h2 {
 .bcoin-about {
   font-size: 16px;
   opacity: 0.7;
+  margin-left: 20px;
 }
 .software {
   font-size: 12px;
   opacity: 0.7;
 }
 .bc-pic {
-  width: 700px;
-  display: block;
-  margin: 0 auto;
   box-shadow: var(--box-shadow);
+  padding: 15px;
+  margin-top: 45px;
+  margin-right: 50px;
+  max-width: 1005;
 }
 .tools {
   list-style: none;
@@ -71,6 +73,7 @@ h2 {
   font-size: 16px;
   padding: 10px 20px;
   background-color: #7890a6;
+  margin-left: 20px;
 }
 
 @media (max-width: 576px) {
