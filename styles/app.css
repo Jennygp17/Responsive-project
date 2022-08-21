@@ -98,14 +98,13 @@ h2 {
   box-shadow: var(--box-shadow);
   padding: 15px;
   max-width: 100%;
- 
 }
 .weatherApp {
   margin-top: 50px;
 }
 .weather-button {
-  border: 2px solid #71942C;
-  background-color: #71942C;
+  border: 2px solid #71942c;
+  background-color: #71942c;
   margin-top: 40px;
 }
 .exerciseHeading {
@@ -175,8 +174,7 @@ h2 {
     height: 300px;
     margin-top: 180px;
   }
-  .weather-pic{
+  .weather-pic {
     margin-top: 230px;
-  }
   }
 }
