@@ -42,20 +42,30 @@ h2 {
 .pagebreak {
   padding: 30px;
   text-align: center;
+  font-family: var(--font);
 }
-.bcoin {
-  color: var(--secondary-color);
+.bcoin,
+.weatherA,
+.exerciseHeading {
   text-align: center;
   font-weight: bold;
+  color: var(--secondary-color);
+  font-family: var(--font);
+}
+.bcoin {
   margin-top: 70px;
 }
-.bcoin-about {
+.bcoin-about,
+.weatherApp,
+.exercise-info {
   font-size: 16px;
   opacity: 0.7;
+  font-family: var(--font);
 }
 .software {
   font-size: 12px;
   opacity: 0.7;
+  font-family: var(--font);
 }
 .bc-pic {
   box-shadow: var(--box-shadow);
@@ -68,18 +78,19 @@ h2 {
 .tools {
   list-style: none;
 }
-.bc-button {
-  border: 2px solid #7890a6;
-  padding: 20px;
+.bc-button,
+.weather-button,
+.exercise-button {
   font-size: 16px;
   padding: 10px 20px;
-  background-color: #7890a6;
   margin-left: 20px;
+  font-family: var(--font);
+}
+.bc-button {
+  border: 2px solid #7890a6;
+  background-color: #7890a6;
 }
 .weatherA {
-  color: var(--secondary-color);
-  font-weight: bold;
-  text-align: center;
   margin-top: 170px;
 }
 .weather-pic {
@@ -89,32 +100,19 @@ h2 {
   max-width: 100%;
 }
 .weatherApp {
-  font-size: 16px;
-  opacity: 0.7;
   margin-top: 50px;
 }
 .weather-button {
   border: 2px solid #c2bbae;
-  padding: 20px;
-  font-size: 16px;
-  padding: 10px 20px;
   background-color: #c2bbae;
-  margin-left: 20px;
   margin-top: 40px;
 }
 .exerciseHeading {
-  color: var(--secondary-color);
-  font-weight: bold;
-  text-align: center;
   margin-top: 130px;
 }
 .exercise-button {
   border: 2px solid #6c63ff;
-  padding: 20px;
-  font-size: 16px;
-  padding: 10px 20px;
   background-color: #6c63ff;
-  margin-left: 20px;
   margin-top: 40px;
   color: white;
 }
@@ -126,8 +124,6 @@ h2 {
   padding: 15px;
 }
 .exercise-info {
-  font-size: 16px;
-  opacity: 0.7;
   margin-top: 50px;
 }
 .social-media-links {
