@@ -54,6 +54,7 @@ h2 {
 }
 .software {
   font-size: 12px;
+  opacity: 0.7;
 }
 .bc-pic {
   width: 700px;
@@ -63,6 +64,13 @@ h2 {
 }
 .tools {
   list-style: none;
+}
+.btn-project {
+  border: 2px solid #7890a6;
+  padding: 20px;
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #7890a6;
 }
 
 @media (max-width: 576px) {
