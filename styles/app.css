@@ -1,7 +1,7 @@
 :root {
   --primary-color: #fafafa;
   --secondary-color: #222831;
-  --box-shadow: 0 10px -14px rgba(0, 0, 0, 0.3);
+  --box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5);
   --font: "Roboto", sans-serif;
 }
 
@@ -39,6 +39,32 @@ h2 {
   font-size: 20px;
   font-family: var(--font);
 }
+.pagebreak {
+  padding: 30px;
+  text-align: center;
+}
+.bcoin {
+  color: var(--secondary-color);
+  text-align: center;
+  font-weight: bold;
+}
+.bcoin-about {
+  font-size: 16px;
+  opacity: 0.7;
+}
+.software {
+  font-size: 12px;
+}
+.bc-pic {
+  width: 700px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: var(--box-shadow);
+}
+.tools {
+  list-style: none;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 56px;
