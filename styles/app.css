@@ -10,7 +10,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  height: 550px;
+  height: 570px;
   width: 100%;
   text-align: center;
   background-color: black;
@@ -22,11 +22,14 @@ h1 {
 }
 h2 {
   color: var(--primary-color);
-  margin-top: 20px;
   font-family: var(--font);
 }
+.hi {
+  margin-top: 60px;
+  font-size: 35px;
+}
 .aspiring {
-  margin-top: 210px;
+  margin-top: 220px;
 }
 .contact-button {
   margin-top: 25px;
@@ -40,9 +43,6 @@ h2 {
   h1 {
     font-size: 56px;
     margin-top: 70px;
-  }
-  h2 {
-    margin-top: 15px;
   }
   .btn {
     padding: 15px 20px;
