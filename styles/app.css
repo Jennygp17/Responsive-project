@@ -36,3 +36,15 @@ h2 {
   font-size: 20px;
   font-family: var(--font);
 }
+@media (max-width: 576px) {
+  h1 {
+    font-size: 56px;
+    margin-top: 70px;
+  }
+  h2 {
+    margin-top: 15px;
+  }
+  .btn {
+    padding: 15px 20px;
+  }
+}
