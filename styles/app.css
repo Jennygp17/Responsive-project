@@ -166,7 +166,7 @@ h2 {
     text-align: left;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 1050px) {
   .weather-pic,
   .yoga-project,
   .bc-pic {
