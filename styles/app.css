@@ -75,6 +75,15 @@ h2 {
   height: 500px;
   max-width: 100%;
 }
+.bc-pic:hover {
+  transform: scale(1.05);
+}
+.weather-pic:hover {
+  transform: scale(1.05);
+}
+.yoga-project:hover {
+  transform: scale(1.05);
+}
 .tools {
   list-style: none;
 }
