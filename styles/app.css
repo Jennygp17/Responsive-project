@@ -140,6 +140,7 @@ h2 {
   justify-content: space-evenly;
   font-size: 40px;
   margin: 90px;
+  color: black;
 }
 
 @media (max-width: 576px) {
@@ -190,9 +191,57 @@ h2 {
 .about-page {
   background-color: #212529;
 }
+.abouthero {
+  margin-top: 130px;
+}
+.name {
+  color: white;
+  font-size: 70px;
+  font-weight: bolder;
+}
+
 .aboutpara {
   color: white;
+  border-color: white;
 }
+.viewprojects {
+  margin-top: 50px;
+}
+.viewprojects:hover {
+  border-color: white;
+  background-color: #212529;
+  color: white;
+}
+
 .work {
   color: white;
+  font-size: 50px;
+}
+.cBut {
+  padding: 3px 50px;
+}
+.cBut:hover {
+  border-color: white;
+  background-color: #212529;
+  color: white;
+}
+.aboutlinks {
+  color: white;
+}
+@media (max-width: 576px) {
+  .about-page {
+    max-width: 90%;
+    margin: 10px;
+  }
+  .abouttext {
+    text-align: center;
+  }
+  .name {
+    font-size: 45px;
+  }
+}
+@media (max-width: 1050px) {
+  .profpic {
+    margin-top: 150px;
+  }
 }
