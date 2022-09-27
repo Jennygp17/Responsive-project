@@ -230,6 +230,22 @@ h2 {
   background-color: #212529;
   color: white;
 }
+.skills {
+  color: white;
+  text-align: center;
+}
+.skillsheading {
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+hr {
+  color: white;
+  margin-top: 40px;
+}
+.icons {
+  border-radius: 10px;
+}
 
 .aboutlinks {
   color: white;
@@ -255,6 +271,9 @@ h2 {
     display: inline-block;
     margin-top: 20px;
   }
+  .skills {
+    color: white;
+  }
 }
 @media (max-width: 1200px) {
   .profpic {
@@ -265,6 +284,9 @@ h2 {
   }
   .cBut {
     padding: 10px 30px;
+  }
+  .skillsheading {
+    font-size: 30px;
   }
 }
 .recent {
