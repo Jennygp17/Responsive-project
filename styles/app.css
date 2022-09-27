@@ -29,7 +29,7 @@ h2 {
   font-size: 35px;
 }
 .aspiring {
-  margin-top: 220px;
+  margin-top: 250px;
 }
 .contact-button {
   margin-top: 25px;
@@ -186,4 +186,10 @@ h2 {
   .weather-pic {
     margin-top: 230px;
   }
+}
+.about-page {
+  background-color: #212529;
+}
+.aboutpara {
+  color: white;
 }
