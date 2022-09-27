@@ -248,6 +248,7 @@ h2 {
     text-align: center;
     margin: 30px 10px;
     font-size: 30px;
+    flex-wrap: wrap;
   }
   .cBut {
     display: inline-block;
@@ -264,4 +265,7 @@ h2 {
   .cBut {
     padding: 10px 30px;
   }
+}
+.pone {
+  border: white 5px solid;
 }
