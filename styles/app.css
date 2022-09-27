@@ -216,15 +216,20 @@ h2 {
 .work {
   color: white;
   font-size: 50px;
+  margin-top: 100px;
+  text-align: right;
+  font-weight: bold;
 }
 .cBut {
-  padding: 3px 50px;
+  padding: 20px 50px;
+  display: block;
 }
 .cBut:hover {
   border-color: white;
   background-color: #212529;
   color: white;
 }
+
 .aboutlinks {
   color: white;
 }
@@ -239,9 +244,24 @@ h2 {
   .name {
     font-size: 45px;
   }
+  .work {
+    text-align: center;
+    margin: 30px 10px;
+    font-size: 30px;
+  }
+  .cBut {
+    display: inline-block;
+    margin-top: 20px;
+  }
 }
-@media (max-width: 1050px) {
+@media (max-width: 1200px) {
   .profpic {
-    margin-top: 150px;
+    margin-top: 130px;
+  }
+  .work {
+    font-size: 30px;
+  }
+  .cBut {
+    padding: 10px 30px;
   }
 }
