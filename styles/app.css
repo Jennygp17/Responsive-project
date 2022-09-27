@@ -191,6 +191,7 @@ h2 {
 .about-page {
   background-color: #212529;
 }
+
 .abouthero {
   margin-top: 130px;
 }
@@ -235,7 +236,7 @@ h2 {
 }
 @media (max-width: 576px) {
   .about-page {
-    max-width: 90%;
+    max-width: 95%;
     margin: 10px;
   }
   .abouttext {
@@ -266,6 +267,53 @@ h2 {
     padding: 10px 30px;
   }
 }
-.pone {
-  border: white 5px solid;
+.recent {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.bcoin-work {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+}
+.btitle {
+  margin-top: 10px;
+}
+.bcpic {
+  margin-top: 10px;
+}
+.bbut {
+  margin-bottom: 10px;
+}
+.weaapp {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px;
+}
+.weapic {
+  margin-top: 10px;
+}
+.weatitle {
+  margin-top: 10px;
+}
+.exerproject {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px;
+}
+.exerpic {
+  margin-top: 10px;
+}
+.exerhead {
+  margin-top: 15px;
+}
+@media (max-width: 1200px) {
+  .exerpic,
+  .weapic,
+  .bcpic {
+    margin-top: 80px;
+  }
 }
