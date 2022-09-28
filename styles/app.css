@@ -213,6 +213,15 @@ h2 {
   background-color: #212529;
   color: white;
 }
+.coded {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+  padding: 20px;
+}
+.codedt {
+  color: white;
+}
 
 .work {
   color: white;
@@ -373,4 +382,7 @@ a:hover {
 .indexlinkse,
 .indexlinksg {
   color: black;
+}
+.wholepage {
+  font-family: var(--font);
 }
