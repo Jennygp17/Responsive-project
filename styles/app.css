@@ -341,4 +341,36 @@ hr {
 }
 .contactdetails {
   color: white;
+  text-align: center;
+}
+.Contactheading {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.email,
+.linkedin,
+.github {
+  color: #ff347f;
+  font-size: 50px;
+  margin-top: 20px;
+}
+.emailadd,
+.linkedinurl,
+.githubadd {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #ff347f;
+}
+a:hover {
+  color: #c9356c;
+}
+.indexlinksl,
+.indexlinkse,
+.indexlinksg {
+  color: black;
 }
