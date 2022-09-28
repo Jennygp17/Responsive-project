@@ -383,11 +383,10 @@ a {
 a:hover {
   color: #c9356c;
 }
-.indexlinksl,
-.indexlinkse,
-.indexlinksg {
-  color: black;
-}
+
 .wholepage {
   font-family: var(--font);
+}
+.bottom {
+  background-color: #222831;
 }
