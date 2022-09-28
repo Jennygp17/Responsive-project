@@ -44,6 +44,7 @@ h2 {
   padding: 30px;
   text-align: center;
   font-family: var(--font);
+  font-size: 45px;
 }
 .bcoin,
 .weatherA,
@@ -148,6 +149,9 @@ h2 {
   h1 {
     font-size: 56px;
     margin-top: 30px;
+  }
+  .pagebreak {
+    font-size: 37px;
   }
   .btn {
     padding: 15px 20px;
